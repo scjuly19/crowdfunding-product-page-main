@@ -1,0 +1,27 @@
+
+$font-stack: 'Commissioner', sans-serif;;
+$white-color: white;
+
+@mixin show {
+  display: inline;
+}
+@mixin hide-hamburger {
+  display: none;
+}
+@mixin respond($breakpoint) {
+  @if ($breakpoint == tablet) {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  @if ($breakpoint == landscape) {
+    @media (min-width: 480px) {
+      @content;
+    }
+  }
+  @if ($breakpoint==desktop) {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+}
