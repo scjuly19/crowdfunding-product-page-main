@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Source Code](https://github.com/scjuly19/crowdfunding-product-page-main.git)
+- Live Site URL: [Website](https://tender-minsky-dc3c00.netlify.app)
 
 ## My process
 I started with creating a basic html structure for the page and then added styling using scss. In styles, first I added the basic styling and then proceeded with writing the media queries for making a responsive layout. And then added the functionality using vanillaJS. 
